@@ -13,7 +13,7 @@ router.post('/login',bodyParserMid,function(req,resp){
     if(username=="adel"&&password.valueOf()=="1234"){
         req.session.username="adel";
         req.session.password="1234";
-        resp.redirect("/posts/list");
+        resp.redirect("/admin/allUsers");
     }else{
         req.flash("msg","invalid username & password");
         resp.redirect("/auth/login");

@@ -1,6 +1,6 @@
 var mongoose=require('mongoose');
 var Schema=mongoose.Schema;
-var rooms=new Schema({
-_roomnumber:Number
+var Rooms=new Schema({
+roomnumber:Number
 });
-mongoose.model("rooms",rooms);
+mongoose.model("Rooms",Rooms);

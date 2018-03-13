@@ -1,6 +1,6 @@
 var express=require('express');
 var server= express();
-require('./models/rooms');
+require('./models/Rooms');
 require('./models/users');
 require('./models/orders');
 require('./models/category');
